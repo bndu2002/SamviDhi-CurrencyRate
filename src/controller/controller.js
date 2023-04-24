@@ -11,9 +11,7 @@ const exchangeRate = async (req, res) => {
 
         let result = []
 
-        // const amount = 60
-        // const from = "INR"
-        // const to = "KRW"
+        
 
 
 
@@ -110,3 +108,4 @@ const maxExchangeRate = async (req, res) => {
     }
 }
 module.exports = { exchangeRate, maxExchangeRate }
+
